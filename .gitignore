@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# I have made my own notes I'm not going to add them to the repository, however.
+deeryeen_*.md
+
 # Distribution / packaging
 .Python
 build/
