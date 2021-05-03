@@ -54,16 +54,17 @@ body {
   padding: 20px;
 }
 
-.content .note-container pre {
-  margin: 25px;
+.content .note-container code {
+  font-family: 'JetBrains Mono', monospace;
 }
 
-.content .note-container code {
-  padding: 8px;
+.content .note-container pre {
+  padding: 10px;
+  margin: 5px;
   border-radius: 10px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   background-color: #0b0b0e;
+  -webkit-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .content .note-container img {

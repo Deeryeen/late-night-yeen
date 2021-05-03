@@ -9,7 +9,7 @@ class Note:
 
     def __init__(self, filename: Path) -> None:
         with open(filename, 'r') as f:
-            self.contents=markdown(f.read(), extras=['metadata'])
+            self.contents=markdown(f.read(), extras=['metadata', 'fenced-code-blocks'])
         
         self.name = self.contents.metadata['name']
         self.description = self.contents.metadata['description']
