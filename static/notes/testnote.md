@@ -1,5 +1,7 @@
-Test Note!
-This is a test note to test a variety of things the note app can do.
+---
+name: Test Note!
+description: This is a test note to test a variety of things the note app can do.
+---
 # The Test Note
 The first line of the file is the title, and the second is the description. I'm thinking of removing this odd feature once I've got a database working correctly.
 
