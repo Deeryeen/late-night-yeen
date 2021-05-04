@@ -69,6 +69,7 @@ body a {
 
 .content .note-container code {
   font-family: 'JetBrains Mono', monospace;
+  color: #ff6db6;
 }
 
 .content .note-container pre {
@@ -80,6 +81,10 @@ body a {
           box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
   background-color: #0b0b0e;
   overflow-y: auto;
+}
+
+.content .note-container pre code {
+  color: #e5e5e5;
 }
 
 .content .note-container .codehilite {
