@@ -16,7 +16,12 @@
 </head>
 <body>
     <div class="content">
-        <h2><a href="/">home</a></h2>
+        <div class="home-button">
+            <a href="/">
+                <img src="{{url_for('static', filename='images/home.svg')}}" alt="Home Button">
+                <h2>Home</h2>
+            </a>
+        </div>
         <h1 class="main-title">{{name}}</h1>
         <h2 class="description">{{description}}</h2>
         <hr>

@@ -1,10 +1,9 @@
 // Variables!
 $background-color: #1f2027
 $code-color: #0b0b0e
-$list-element-color: #393d4c
+$list-element-color: #262730
 $off-white: #e5e5e5
-$box-shadow: 0px 4px 6px rgba(0,0,0, 0.4)
-
+$box-shadow: 0px 4px 6px rgba(0,0,0, 0.25)
 
 body
     margin: 0
@@ -26,6 +25,29 @@ body
     margin: 2% auto
     padding: 2%
     box-sizing: border-box
+
+    .home-button
+        width: max-content
+        padding: 15px
+        border-radius: 15px
+        
+
+        background-color: $list-element-color
+        box-shadow: $box-shadow
+
+        a
+            display: flex
+            flex-direction: row
+            align-items: center
+            text-decoration: none
+
+        h2
+            margin: 0
+
+        img
+            width: 32px
+            height: 32px
+            margin-right: 15px
 
     .main-title
         font-size: 5rem
