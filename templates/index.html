@@ -10,13 +10,13 @@
     <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
     <title>Late Night Yeen</title>
 </head>
-<body>
+<body class="dark-mode-body">
     <div class="content">
         <h1 class="main-title">Notes</h1>
         <p class="description">Here I put all of my notes for everyone to see.</p>
         <hr>
         {% for note in notes %}
-        <div class="list-element shadow">
+        <div class="list-element shadow dark-mode-element">
             <h1><a href="/note/{{note.filename}}">{{note.name}}</a></h1>
             <h2 class="monospace-font">{{note.description}}</h2>
         </div>

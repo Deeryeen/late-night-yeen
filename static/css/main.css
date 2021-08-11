@@ -1,12 +1,10 @@
 body {
   margin: 0;
-  background-color: #1f2027;
   font-family: 'Poppins', sans-serif;
-  color: #e5e5e5;
 }
 
 body a {
-  color: #e5e5e5;
+  color: inherit;
 }
 
 .monospace-font {
@@ -14,8 +12,26 @@ body a {
 }
 
 .shadow {
-  -webkit-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode-body {
+  background-color: #1f2027;
+  color: #e5e5e5;
+}
+
+.light-mode-body {
+  background-color: #ffffff;
+  color: #111111;
+}
+
+.dark-mode-element {
+  background-color: #262730;
+}
+
+.light-mode-element {
+  background-color: #f8f8f8;
 }
 
 .content {
@@ -32,9 +48,6 @@ body a {
   width: max-content;
   padding: 15px;
   border-radius: 15px;
-  background-color: #262730;
-  -webkit-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
   cursor: pointer;
 }
 
@@ -87,7 +100,6 @@ body a {
 .content .list-element {
   padding: 20px;
   border-radius: 20px;
-  background-color: #262730;
   margin: 20px;
 }
 
@@ -113,10 +125,10 @@ body a {
   padding: 10px;
   margin: 5px;
   border-radius: 10px;
-  -webkit-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
   background-color: #0b0b0e;
   overflow-y: auto;
+  -webkit-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .content .note-container pre code {
